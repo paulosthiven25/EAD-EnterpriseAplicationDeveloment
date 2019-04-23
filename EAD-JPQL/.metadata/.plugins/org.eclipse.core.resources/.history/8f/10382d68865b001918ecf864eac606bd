@@ -1,0 +1,20 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import br.com.fiap.dao.impl.PacoteDAOImpl;
+
+class PacoteDAOImplTeste {
+	
+	@BeforeAll
+	public PacoteDAOImpl(E)
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

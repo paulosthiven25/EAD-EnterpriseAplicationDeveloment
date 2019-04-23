@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.fiap.dao.GenericDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.exception.CodigoInexistenteException"/>
+<fullyQualifiedTypeName name="br.com.fiap.exception.CommitException"/>
+</qualifiedTypeNameHistroy>

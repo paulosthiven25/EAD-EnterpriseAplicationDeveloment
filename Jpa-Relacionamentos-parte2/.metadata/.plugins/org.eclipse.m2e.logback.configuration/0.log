@@ -1,0 +1,346 @@
+2019-03-27 09:30:00,914 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-03-27 09:30:02,202 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-03-27 09:33:12,616 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-Relacionamentos:06-JPA-Relacionamentos:0.0.1-SNAPSHOT @ C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\pom.xml.
+2019-03-27 09:33:14,345 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.197/h2-1.4.197.pom
+2019-03-27 09:33:14,475 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.197/h2-1.4.197.pom
+2019-03-27 09:33:14,632 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.197/h2-1.4.197.jar
+2019-03-27 09:33:16,538 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.197/h2-1.4.197.jar
+2019-03-27 09:33:17,797 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:33:17,797 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\main\resources
+2019-03-27 09:33:17,797 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:33:17,797 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\test\resources
+2019-03-27 09:33:18,313 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-Relacionamentos:06-JPA-Relacionamentos:0.0.1-SNAPSHOT @ C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\pom.xml.
+2019-03-27 09:33:20,601 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:33:20,617 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\main\resources
+2019-03-27 09:33:20,617 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:33:20,617 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\test\resources
+2019-03-27 09:34:21,912 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-27 09:34:22,256 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-Relacionamentos:06-JPA-Relacionamentos:0.0.1-SNAPSHOT @ C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\pom.xml.
+2019-03-27 09:34:22,506 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06-JPA-Relacionamentos/src
+2019-03-27 09:34:22,506 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /06-JPA-Relacionamentos/src/test/java because it overlaps with /06-JPA-Relacionamentos/src
+2019-03-27 09:34:22,662 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-03-27 09:34:23,975 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:34:23,975 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\main\resources
+2019-03-27 09:34:23,975 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:34:23,975 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\test\resources
+2019-03-27 09:49:38,509 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:49:38,509 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\main\resources
+2019-03-27 09:49:38,509 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:49:38,509 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\06-JPA-Relacionamentos\src\test\resources
+2019-03-27 09:51:20,605 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 08-Teste-relacionamentos-complexo:08-Teste-relacionamentos-complexo:0.0.1-SNAPSHOT @ C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\pom.xml.
+2019-03-27 09:51:20,824 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08-Teste-relacionamentos-complexo/src
+2019-03-27 09:51:20,824 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /08-Teste-relacionamentos-complexo/src/test/java because it overlaps with /08-Teste-relacionamentos-complexo/src
+2019-03-27 09:51:20,965 [Worker-32] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-27 09:51:21,012 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 08-Teste-relacionamentos-complexo:08-Teste-relacionamentos-complexo:0.0.1-SNAPSHOT @ C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\pom.xml.
+2019-03-27 09:51:21,090 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08-Teste-relacionamentos-complexo/src
+2019-03-27 09:51:21,090 [Worker-32] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /08-Teste-relacionamentos-complexo/src/test/java because it overlaps with /08-Teste-relacionamentos-complexo/src
+2019-03-27 09:51:21,152 [Worker-32] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-03-27 09:51:21,277 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:51:21,277 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 09:51:21,277 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:51:21,277 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 09:51:47,213 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 08-Teste-relacionamentos-complexo:08-Teste-relacionamentos-complexo:0.0.1-SNAPSHOT @ C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\pom.xml.
+2019-03-27 09:51:47,291 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:51:47,307 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 09:51:47,307 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:51:47,307 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 09:51:48,478 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:51:48,478 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 09:51:48,478 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:51:48,478 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 09:53:56,062 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:53:56,078 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 09:53:56,078 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:53:56,078 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 09:59:29,779 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:59:29,779 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 09:59:29,779 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 09:59:29,779 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:00:33,075 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:00:33,075 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:00:33,075 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:00:33,075 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:01:43,168 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:01:43,168 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:01:43,168 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:01:43,168 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:02:27,942 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:02:27,942 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:02:27,942 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:02:27,942 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:03:32,588 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:03:32,588 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:03:32,588 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:03:32,588 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:07:27,749 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:07:27,749 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:07:27,749 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:07:27,749 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:07:41,087 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:07:41,087 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:07:41,087 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:07:41,087 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:17:43,452 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:17:43,468 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:17:43,468 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:17:43,468 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:18:23,091 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:18:23,091 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:18:23,091 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:18:23,091 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:19:14,301 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:19:14,301 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:19:14,301 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:19:14,301 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:22:03,309 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:22:03,309 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:22:03,309 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:22:03,309 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:23:47,624 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:23:47,624 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:23:47,624 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:23:47,640 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:23:50,012 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:23:50,012 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:23:50,012 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:23:50,012 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:25:28,199 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:25:28,199 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:25:28,199 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:25:28,199 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:25:55,636 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:25:55,636 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:25:55,636 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:25:55,636 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:26:47,465 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:26:47,465 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:26:47,465 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:26:47,465 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:27:05,741 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:27:05,741 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:27:05,741 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:27:05,741 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:40:19,040 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:40:19,041 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:40:19,042 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:40:19,043 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:40:55,489 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:40:55,489 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:40:55,489 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:40:55,489 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:42:07,899 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:42:07,899 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:42:07,899 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:42:07,899 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:47:41,142 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:47:41,142 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:47:41,142 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:47:41,142 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:50:29,677 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:50:29,677 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:50:29,677 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:50:29,677 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:50:42,724 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:50:42,724 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:50:42,724 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:50:42,724 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:53:40,454 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:53:40,454 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:53:40,469 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:53:40,469 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:55:23,317 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:55:23,317 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:55:23,317 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:55:23,317 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:56:46,533 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:56:46,533 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:56:46,533 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:56:46,533 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:57:54,934 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:57:54,934 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:57:54,934 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:57:54,934 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:58:20,653 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:58:20,653 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:58:20,653 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:58:20,653 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 10:59:33,522 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:59:33,522 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 10:59:33,522 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 10:59:33,522 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:00:24,239 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:00:24,239 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:00:24,239 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:00:24,239 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:01:40,357 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:01:40,357 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:01:40,357 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:01:40,357 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:02:50,006 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:02:50,006 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:02:50,006 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:02:50,006 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:03:00,096 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:00,096 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:03:00,112 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:00,112 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:03:33,880 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:33,880 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:03:33,880 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:33,880 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:03:45,150 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:45,150 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:03:45,150 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:45,150 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:03:55,073 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:55,073 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:03:55,073 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:03:55,073 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:04:24,902 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:04:24,917 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:04:24,917 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:04:24,917 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:05:22,541 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:05:22,557 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:05:22,557 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:05:22,557 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:05:46,557 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:05:46,557 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:05:46,557 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:05:46,557 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:06:30,901 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:06:30,901 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:06:30,916 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:06:30,916 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:07:03,494 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:03,494 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:07:03,494 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:03,494 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:07:20,778 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:20,778 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:07:20,778 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:20,778 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:07:32,197 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:32,197 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:07:32,213 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:32,213 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:07:51,326 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:51,341 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:07:51,341 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:07:51,341 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:08:14,544 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:08:14,544 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:08:14,544 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:08:14,544 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:08:29,711 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:08:29,711 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:08:29,727 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:08:29,727 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:09:52,533 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:09:52,533 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:09:52,533 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:09:52,533 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:14:20,536 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:14:20,536 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:14:20,536 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:14:20,536 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:14:32,020 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:14:32,020 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:14:32,020 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:14:32,020 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:17:27,356 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:17:27,356 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:17:27,356 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:17:27,356 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:18:20,965 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:18:20,965 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:18:20,965 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:18:20,965 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:19:38,980 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:19:38,980 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:19:38,980 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:19:38,980 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:21:58,007 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:21:58,007 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:21:58,007 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:21:58,007 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:24:01,548 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:24:01,548 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:24:01,548 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:24:01,548 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:26:47,656 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:26:47,656 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:26:47,656 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:26:47,656 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:28:06,076 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:28:06,092 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:28:06,092 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:28:06,092 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:28:27,515 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:28:27,515 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:28:27,515 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:28:27,515 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:29:51,486 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:29:51,486 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:29:51,486 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:29:51,486 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:31:13,550 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:31:13,550 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:31:13,550 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:31:13,550 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:33:01,260 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:33:01,260 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:33:01,276 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:33:01,276 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:34:04,872 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:34:04,872 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:34:04,872 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:34:04,872 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:34:31,831 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:34:31,831 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:34:31,847 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:34:31,847 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:37:20,030 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:37:20,030 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:37:20,030 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:37:20,030 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:38:19,270 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:38:19,270 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:38:19,270 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:38:19,270 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:38:51,912 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:38:51,912 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:38:51,912 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:38:51,912 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:38:57,067 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:38:57,067 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:38:57,067 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:38:57,067 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:40:38,483 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:40:38,483 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:40:38,499 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:40:38,499 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:42:52,756 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:42:52,756 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:42:52,756 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:42:52,756 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:43:08,108 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:43:08,108 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:43:08,124 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:43:08,124 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:44:34,989 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:44:34,989 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:44:34,989 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:44:34,989 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:47:57,954 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:47:57,954 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:47:57,954 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:47:57,954 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:52:09,670 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:52:09,670 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:52:09,670 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:52:09,670 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources
+2019-03-27 11:52:39,745 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:52:39,745 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\main\resources
+2019-03-27 11:52:39,745 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-03-27 11:52:39,745 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jaaj-tabela-associativa\08-Teste-relacionamentos-complexo\src\test\resources

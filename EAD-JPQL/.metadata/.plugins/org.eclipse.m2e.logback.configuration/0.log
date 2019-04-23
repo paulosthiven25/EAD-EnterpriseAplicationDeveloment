@@ -1,0 +1,976 @@
+2019-04-03 09:07:15,262 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-03 09:07:15,718 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-04-03 09:17:38,063 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+2019-04-03 09:17:38,475 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+2019-04-03 09:17:38,745 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+2019-04-03 09:17:38,890 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+2019-04-03 09:17:39,217 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2019-04-03 09:17:39,361 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2019-04-03 09:17:39,888 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2019-04-03 09:17:40,039 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2019-04-03 09:17:40,186 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2019-04-03 09:17:40,524 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2019-04-03 09:17:40,993 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2019-04-03 09:17:41,137 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2019-04-03 09:17:41,344 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+2019-04-03 09:17:41,489 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+2019-04-03 09:17:41,635 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+2019-04-03 09:17:41,792 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+2019-04-03 09:17:41,989 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2019-04-03 09:17:42,134 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2019-04-03 09:17:42,286 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+2019-04-03 09:17:42,432 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+2019-04-03 09:17:42,582 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2019-04-03 09:17:42,728 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2019-04-03 09:17:42,881 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+2019-04-03 09:17:43,026 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+2019-04-03 09:17:43,177 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2019-04-03 09:17:43,322 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2019-04-03 09:17:43,514 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2019-04-03 09:17:43,658 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2019-04-03 09:17:43,809 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+2019-04-03 09:17:43,995 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+2019-04-03 09:17:44,145 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+2019-04-03 09:17:44,291 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+2019-04-03 09:17:44,482 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2019-04-03 09:17:44,645 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2019-04-03 09:17:44,795 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2019-04-03 09:17:44,981 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2019-04-03 09:17:45,126 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+2019-04-03 09:17:45,272 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+2019-04-03 09:17:45,548 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+2019-04-03 09:17:45,694 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+2019-04-03 09:17:45,845 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+2019-04-03 09:17:45,991 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+2019-04-03 09:17:46,160 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+2019-04-03 09:17:46,305 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+2019-04-03 09:17:46,458 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+2019-04-03 09:17:46,607 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+2019-04-03 09:17:46,797 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+2019-04-03 09:17:46,943 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+2019-04-03 09:17:47,147 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2019-04-03 09:17:47,291 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2019-04-03 09:17:47,432 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2019-04-03 09:17:47,583 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2019-04-03 09:17:47,724 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2019-04-03 09:17:48,019 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2019-04-03 09:17:48,162 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2019-04-03 09:17:48,450 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2019-04-03 09:17:48,591 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2019-04-03 09:17:48,737 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2019-04-03 09:17:48,877 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+2019-04-03 09:17:49,027 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+2019-04-03 09:17:49,171 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+2019-04-03 09:17:49,316 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+2019-04-03 09:17:49,458 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+2019-04-03 09:17:49,603 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+2019-04-03 09:17:49,911 [Worker-23] WARN  o.e.a.i.i.DefaultRepositoryEventDispatcher - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2019-04-03 09:17:50,270 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-JPQL-Apostila:06-JPA-JPQL-Apostila:0.0.1-SNAPSHOT @ D:\JPQL-INICIO\06-JPA-JPQL-Apostila\pom.xml.
+2019-04-03 09:17:50,906 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.pom
+2019-04-03 09:17:51,058 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.pom
+2019-04-03 09:17:51,284 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar
+2019-04-03 09:17:57,740 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar
+2019-04-03 09:17:58,343 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:17:58,343 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 09:17:58,345 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:17:58,345 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 09:17:59,568 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-JPQL-Apostila:06-JPA-JPQL-Apostila:0.0.1-SNAPSHOT @ D:\JPQL-INICIO\06-JPA-JPQL-Apostila\pom.xml.
+2019-04-03 09:18:01,333 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:18:01,334 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 09:18:01,336 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:18:01,337 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 09:20:15,331 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:20:15,332 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 09:20:15,334 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:20:15,335 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 09:32:45,899 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:32:45,900 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 09:32:45,901 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 09:32:45,901 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:01:42,304 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:01:42,305 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:01:42,306 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:01:42,306 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:01:56,356 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:01:56,357 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:01:56,357 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:01:56,358 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:03:49,190 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:03:49,191 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:03:49,193 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:03:49,193 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:03:51,222 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:03:51,222 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:03:51,223 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:03:51,223 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:06:40,375 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:06:40,376 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:06:40,377 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:06:40,377 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:08:51,008 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:08:51,009 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:08:51,010 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:08:51,011 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:09:21,865 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:09:21,866 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:09:21,867 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:09:21,867 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:11:59,468 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:11:59,469 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:11:59,471 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:11:59,472 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:17:55,138 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:17:55,139 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:17:55,140 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:17:55,141 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:19:05,664 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
+2019-04-03 10:19:12,257 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final-sources.jar
+2019-04-03 10:19:12,310 [Worker-38] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.2.7.Final
+2019-04-03 10:19:12,690 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:19:12,690 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:19:12,691 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:19:12,692 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:19:13,407 [Worker-43] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.2.7.Final
+2019-04-03 10:19:13,409 [Worker-43] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.2.7.Final
+2019-04-03 10:19:13,411 [Worker-43] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.2.7.Final
+2019-04-03 10:19:13,414 [Worker-43] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.2.7.Final
+2019-04-03 10:19:13,704 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:19:13,705 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:19:13,706 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:19:13,706 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:21:26,485 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:21:26,486 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:21:26,487 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:21:26,487 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:24:48,399 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:24:48,400 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:24:48,401 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:24:48,402 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:29:20,053 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:29:20,054 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:29:20,056 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:29:20,056 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:31:47,192 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:31:47,193 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:31:47,194 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:31:47,194 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:45:57,968 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:45:57,969 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:45:57,970 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:45:57,970 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:46:15,329 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:46:15,330 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:46:15,330 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:46:15,331 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:51:43,295 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:51:43,296 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:51:43,296 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:51:43,296 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:52:47,607 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:52:47,608 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:52:47,610 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:52:47,610 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:53:53,821 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:53:53,822 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:53:53,823 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:53:53,823 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 10:54:37,951 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:54:37,951 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 10:54:37,952 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 10:54:37,952 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:06:46,710 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:06:46,711 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:06:46,712 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:06:46,712 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:07:28,702 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:07:28,703 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:07:28,703 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:07:28,704 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:16:16,230 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:16:16,231 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:16:16,231 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:16:16,232 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:17:17,973 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:17:17,974 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:17:17,974 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:17:17,975 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:17:25,405 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:17:25,405 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:17:25,406 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:17:25,406 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:17:26,436 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:17:26,436 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:17:26,437 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:17:26,437 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:20:01,928 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:20:01,928 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:20:01,929 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:20:01,929 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:20:22,265 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:20:22,265 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:20:22,266 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:20:22,266 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:22:38,847 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:22:38,848 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:22:38,849 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:22:38,849 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:23:31,983 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:23:31,984 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:23:31,985 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:23:31,985 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:26:11,960 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:26:11,961 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:26:11,963 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:26:11,963 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:27:06,515 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:27:06,516 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:27:06,516 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:27:06,517 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:30:14,479 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:30:14,479 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:30:14,480 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:30:14,480 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:30:16,637 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:30:16,637 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:30:16,638 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:30:16,639 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:34:10,490 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:34:10,491 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:34:10,491 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:34:10,492 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:34:15,493 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:34:15,493 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:34:15,494 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:34:15,494 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:37:09,873 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:37:09,873 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:37:09,874 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:37:09,874 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:38:21,411 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:38:21,411 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:38:21,412 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:38:21,412 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:39:14,547 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:39:14,547 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:39:14,548 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:39:14,548 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:39:19,292 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:39:19,292 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:39:19,293 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:39:19,294 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:40:43,583 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:40:43,584 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:40:43,584 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:40:43,585 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:41:00,593 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:41:00,593 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:41:00,594 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:41:00,594 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:43:18,032 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:43:18,033 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:43:18,033 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:43:18,034 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:43:44,937 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:43:44,938 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:43:44,938 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:43:44,938 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:46:09,783 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:46:09,783 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:46:09,784 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:46:09,784 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:47:00,055 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:47:00,056 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:47:00,056 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:47:00,057 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-03 11:48:47,707 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:48:47,707 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-03 11:48:47,708 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-03 11:48:47,708 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JPQL-INICIO\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:09:20,784 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-10 08:09:22,987 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-04-10 08:09:23,910 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.pom
+2019-04-10 08:09:24,068 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.pom
+2019-04-10 08:09:24,609 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar
+2019-04-10 08:09:31,901 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar
+2019-04-10 08:09:32,808 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+2019-04-10 08:09:32,949 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+2019-04-10 08:09:33,091 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2019-04-10 08:09:33,271 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2019-04-10 08:09:33,438 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+2019-04-10 08:09:34,075 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+2019-04-10 08:09:34,749 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:09:34,750 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:09:34,752 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:09:34,753 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:09:36,748 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2019-04-10 08:09:36,924 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2019-04-10 08:09:37,060 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2019-04-10 08:09:37,194 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2019-04-10 08:09:37,469 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2019-04-10 08:09:37,598 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2019-04-10 08:09:37,823 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+2019-04-10 08:09:37,954 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+2019-04-10 08:09:38,090 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+2019-04-10 08:09:38,222 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+2019-04-10 08:09:38,403 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2019-04-10 08:09:38,535 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2019-04-10 08:09:38,671 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+2019-04-10 08:09:38,926 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+2019-04-10 08:09:39,080 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2019-04-10 08:09:39,229 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2019-04-10 08:09:39,371 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+2019-04-10 08:09:39,512 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+2019-04-10 08:09:39,690 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2019-04-10 08:09:39,822 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2019-04-10 08:09:39,956 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2019-04-10 08:09:40,100 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2019-04-10 08:09:40,240 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+2019-04-10 08:09:40,387 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+2019-04-10 08:09:40,523 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+2019-04-10 08:09:40,682 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+2019-04-10 08:09:40,890 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2019-04-10 08:09:41,041 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2019-04-10 08:09:41,177 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2019-04-10 08:09:41,320 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2019-04-10 08:09:41,458 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+2019-04-10 08:09:41,591 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+2019-04-10 08:09:41,843 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+2019-04-10 08:09:41,974 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+2019-04-10 08:09:42,107 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+2019-04-10 08:09:42,286 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+2019-04-10 08:09:42,537 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+2019-04-10 08:09:42,669 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+2019-04-10 08:09:42,807 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+2019-04-10 08:09:42,981 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+2019-04-10 08:09:43,117 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+2019-04-10 08:09:43,287 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+2019-04-10 08:09:43,468 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2019-04-10 08:09:43,948 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2019-04-10 08:09:44,076 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2019-04-10 08:09:44,250 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2019-04-10 08:09:44,387 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2019-04-10 08:09:44,918 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2019-04-10 08:09:45,048 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2019-04-10 08:09:46,582 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2019-04-10 08:09:46,710 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2019-04-10 08:09:46,966 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2019-04-10 08:09:47,095 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+2019-04-10 08:09:47,229 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+2019-04-10 08:09:47,356 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+2019-04-10 08:09:47,487 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+2019-04-10 08:09:47,614 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+2019-04-10 08:09:47,748 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+2019-04-10 08:09:49,067 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-JPQL-Apostila:06-JPA-JPQL-Apostila:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\pom.xml.
+2019-04-10 08:09:49,333 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:09:49,334 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:09:49,336 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:09:49,336 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:09:53,498 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:09:53,499 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:09:53,501 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:09:53,501 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:16:11,129 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:16:11,131 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:16:11,132 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:16:11,133 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:20:53,167 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:20:53,168 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:20:53,169 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:20:53,170 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:21:24,458 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:21:24,459 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:21:24,461 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:21:24,462 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:29:23,547 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:29:23,548 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:29:23,549 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:29:23,550 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:31:04,784 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:31:04,785 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:31:04,787 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:31:04,788 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:33:03,572 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:33:03,573 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:33:03,574 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:33:03,575 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:35:00,006 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:35:00,007 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:35:00,008 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:35:00,009 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:47:24,499 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:47:24,500 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:47:24,503 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:47:24,504 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 08:47:52,579 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:47:52,580 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 08:47:52,581 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 08:47:52,581 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:06:47,239 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:06:47,240 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:06:47,242 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:06:47,243 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:08:12,888 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:08:12,888 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:08:12,889 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:08:12,890 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:13:51,083 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:13:51,084 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:13:51,085 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:13:51,086 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:13:54,677 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:13:54,677 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:13:54,678 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:13:54,679 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:15:19,702 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:15:19,703 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:15:19,704 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:15:19,704 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:19:09,424 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:19:09,425 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:19:09,426 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:19:09,426 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:22:18,170 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:22:18,171 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:22:18,172 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:22:18,172 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:22:39,216 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:22:39,217 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:22:39,218 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:22:39,219 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:22:59,426 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:22:59,427 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:22:59,428 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:22:59,429 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-10 09:26:20,198 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:26:20,199 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-10 09:26:20,201 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-10 09:26:20,202 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 08:46:07,421 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-17 08:46:07,791 [Worker-6] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server central: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-17 08:46:08,271 [Worker-6] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server snapshots: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-17 08:46:08,591 [Worker-6] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server central: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-17 08:46:08,594 [Worker-6] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server snapshots: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-17 08:46:08,596 [Worker-6] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server central: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addProjectRepositories(RepositoryRegistry.java:149) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:268) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 8 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 10 common frames omitted
+2019-04-17 08:46:08,598 [Worker-6] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server central: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addProjectRepositories(RepositoryRegistry.java:149) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:268) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 8 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 10 common frames omitted
+2019-04-17 08:46:08,839 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-04-17 08:46:10,452 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.pom
+2019-04-17 08:46:10,590 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.pom
+2019-04-17 08:46:12,678 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar
+2019-04-17 08:46:12,864 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar
+2019-04-17 08:46:13,666 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+2019-04-17 08:46:13,704 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+2019-04-17 08:46:13,719 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2019-04-17 08:46:13,730 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2019-04-17 08:46:13,817 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+2019-04-17 08:46:13,827 [Worker-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+2019-04-17 08:46:16,001 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:46:16,002 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 08:46:16,005 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:46:16,006 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 08:46:23,802 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2019-04-17 08:46:23,825 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+2019-04-17 08:46:23,838 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2019-04-17 08:46:23,846 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+2019-04-17 08:46:24,044 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2019-04-17 08:46:24,053 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2019-04-17 08:46:24,492 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+2019-04-17 08:46:24,503 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+2019-04-17 08:46:24,518 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+2019-04-17 08:46:24,526 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+2019-04-17 08:46:24,541 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2019-04-17 08:46:24,565 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+2019-04-17 08:46:24,577 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+2019-04-17 08:46:24,585 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+2019-04-17 08:46:24,600 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2019-04-17 08:46:24,608 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+2019-04-17 08:46:24,622 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+2019-04-17 08:46:24,648 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+2019-04-17 08:46:24,660 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2019-04-17 08:46:24,678 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+2019-04-17 08:46:24,692 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2019-04-17 08:46:24,702 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+2019-04-17 08:46:24,716 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+2019-04-17 08:46:24,736 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+2019-04-17 08:46:24,750 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+2019-04-17 08:46:24,762 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+2019-04-17 08:46:24,833 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2019-04-17 08:46:24,843 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2019-04-17 08:46:24,857 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2019-04-17 08:46:24,888 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2019-04-17 08:46:24,936 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/apache/4/apache-4.pom
+2019-04-17 08:46:24,947 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/apache/4/apache-4.pom
+2019-04-17 08:46:25,277 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+2019-04-17 08:46:25,285 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+2019-04-17 08:46:25,297 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+2019-04-17 08:46:25,305 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+2019-04-17 08:46:25,343 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+2019-04-17 08:46:25,351 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+2019-04-17 08:46:25,364 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+2019-04-17 08:46:25,397 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+2019-04-17 08:46:25,409 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+2019-04-17 08:46:25,417 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+2019-04-17 08:46:25,471 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2019-04-17 08:46:25,479 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+2019-04-17 08:46:25,486 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2019-04-17 08:46:25,494 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2019-04-17 08:46:25,501 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2019-04-17 08:46:25,512 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+2019-04-17 08:46:25,519 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/commons-io/commons-io/2.4/commons-io-2.4.jar
+2019-04-17 08:46:25,530 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/commons-io/commons-io/2.4/commons-io-2.4.jar
+2019-04-17 08:46:25,536 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2019-04-17 08:46:25,544 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2019-04-17 08:46:25,552 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+2019-04-17 08:46:25,559 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+2019-04-17 08:46:25,566 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+2019-04-17 08:46:25,573 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+2019-04-17 08:46:25,580 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+2019-04-17 08:46:25,588 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+2019-04-17 08:46:27,202 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-JPQL-Apostila:06-JPA-JPQL-Apostila:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\pom.xml.
+2019-04-17 08:46:27,977 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:46:27,978 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 08:46:27,980 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:46:27,981 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 08:49:23,805 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:49:23,806 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 08:49:23,808 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:49:23,808 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 08:49:35,184 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:49:35,186 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 08:49:35,187 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:49:35,188 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 08:56:03,016 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:56:03,017 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 08:56:03,018 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:56:03,019 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 08:59:42,904 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:59:42,905 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 08:59:42,906 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 08:59:42,907 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:00:03,549 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:00:03,550 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:00:03,551 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:00:03,552 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:00:07,546 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:00:07,547 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:00:07,548 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:00:07,549 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:05:38,800 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:05:38,801 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:05:38,803 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:05:38,804 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:06:04,354 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:06:04,355 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:06:04,356 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:06:04,357 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:07:46,461 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:07:46,462 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:07:46,463 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:07:46,464 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:07:56,962 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:07:56,963 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:07:56,964 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:07:56,964 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:12:09,744 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:12:09,745 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:12:09,746 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:12:09,747 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:14:26,944 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:14:26,945 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:14:26,946 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:14:26,947 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:16:38,866 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:16:38,866 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:16:38,867 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:16:38,868 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:17:24,576 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:17:24,576 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:17:24,578 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:17:24,579 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:17:27,273 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:17:27,273 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:17:27,278 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:17:27,279 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:25:46,690 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:25:46,691 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:25:46,692 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:25:46,692 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:25:51,084 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:25:51,085 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:25:51,086 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:25:51,087 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:32:25,740 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:32:25,741 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:32:25,742 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:32:25,743 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 09:33:10,594 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:33:10,595 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 09:33:10,596 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 09:33:10,597 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:01:17,838 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:01:17,839 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:01:17,840 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:01:17,841 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:10:16,005 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:10:16,005 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:10:16,006 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:10:16,007 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:12:41,071 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:12:41,072 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:12:41,073 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:12:41,073 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:20:30,535 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:20:30,535 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:20:30,536 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:20:30,537 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:22:07,581 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:22:07,582 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:22:07,583 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:22:07,584 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:22:44,850 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:22:44,851 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:22:44,852 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:22:44,853 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:22:47,611 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:22:47,612 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:22:47,613 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:22:47,613 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:23:40,178 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:23:40,178 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:23:40,178 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:23:40,179 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:26:39,142 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:26:39,143 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:26:39,144 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:26:39,145 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:29:56,408 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:29:56,409 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:29:56,410 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:29:56,410 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:31:00,504 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:31:00,504 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:31:00,505 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:31:00,506 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:32:57,819 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:32:57,820 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:32:57,821 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:32:57,822 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:33:01,662 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:33:01,662 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:33:01,663 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:33:01,664 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:33:49,396 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:33:49,397 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:33:49,397 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:33:49,398 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:35:46,297 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:35:46,297 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:35:46,298 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:35:46,299 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:36:18,433 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:36:18,434 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:36:18,435 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:36:18,436 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:46:14,839 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:46:14,840 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:46:14,841 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:46:14,842 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:46:54,440 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:46:54,442 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:46:54,443 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:46:54,444 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:49:03,390 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:49:03,391 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:49:03,392 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:49:03,392 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:55:22,482 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:55:22,482 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:55:22,483 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:55:22,484 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 10:57:08,758 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:57:08,759 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 10:57:08,760 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 10:57:08,760 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:06:18,200 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:06:18,201 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:06:18,202 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:06:18,203 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:07:27,536 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:07:27,537 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:07:27,538 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:07:27,538 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:08:08,511 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:08:08,512 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:08:08,512 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:08:08,513 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:10:42,811 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:10:42,812 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:10:42,813 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:10:42,814 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:10:59,454 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:10:59,455 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:10:59,457 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:10:59,458 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:12:01,262 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:12:01,263 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:12:01,264 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:12:01,264 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:14:13,446 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:14:13,447 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:14:13,448 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:14:13,449 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:16:27,336 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:16:27,337 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:16:27,338 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:16:27,338 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:16:37,604 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:16:37,605 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:16:37,606 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:16:37,607 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:16:48,279 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:16:48,280 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:16:48,281 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:16:48,282 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:17:39,963 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:17:39,964 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:17:39,965 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:17:39,965 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:17:42,868 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:17:42,869 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:17:42,869 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:17:42,870 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:19:17,104 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:19:17,104 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:19:17,105 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:19:17,105 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:20:00,843 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:20:00,844 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:20:00,845 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:20:00,846 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:25:13,971 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:25:13,973 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:25:13,974 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:25:13,975 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:25:54,028 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:25:54,029 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:25:54,030 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:25:54,031 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:26:12,399 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:26:12,400 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:26:12,401 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:26:12,401 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:31:30,288 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:31:30,288 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:31:30,289 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:31:30,290 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:31:43,375 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:31:43,376 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:31:43,377 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:31:43,378 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:31:53,483 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:31:53,483 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:31:53,484 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:31:53,485 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:32:04,972 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:32:04,973 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:32:04,974 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:32:04,975 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:33:21,171 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:33:21,172 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:33:21,173 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:33:21,173 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:33:32,957 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:33:32,957 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:33:32,958 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:33:32,959 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:34:08,681 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:34:08,681 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:34:08,682 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:34:08,683 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:34:17,208 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:34:17,208 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:34:17,210 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:34:17,211 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:34:30,227 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:34:30,228 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:34:30,228 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:34:30,229 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:35:00,296 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:35:00,296 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:35:00,297 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:35:00,297 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:36:19,816 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:36:19,817 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:36:19,818 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:36:19,818 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:38:31,253 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:38:31,254 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:38:31,255 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:38:31,256 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:39:35,894 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:39:35,895 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:39:35,895 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:39:35,896 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:39:45,509 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:39:45,510 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:39:45,511 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:39:45,511 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:40:25,775 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:40:25,775 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:40:25,776 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:40:25,777 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:40:27,894 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:40:27,895 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:40:27,896 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:40:27,897 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:41:07,395 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:41:07,396 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:41:07,397 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:41:07,397 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:42:10,038 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:42:10,039 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:42:10,040 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:42:10,040 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:42:16,340 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:42:16,341 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:42:16,342 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:42:16,342 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:42:20,252 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:42:20,253 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:42:20,253 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:42:20,254 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:44:01,514 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:44:01,515 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:44:01,516 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:44:01,517 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources
+2019-04-17 11:44:06,335 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:44:06,336 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\main\resources
+2019-04-17 11:44:06,337 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-17 11:44:06,338 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-JPQL\06-JPA-JPQL-Apostila\src\test\resources

@@ -1,0 +1,64 @@
+import java.lang.reflect.ParameterizedType;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.DAO.GenericDAO;
+import br.com.fiap.dao.exception.CodInexistenteException;
+import br.com.fiap.exception.CodigoInexistenteException;
+import br.com.fiap.exception.CommitException;
+
+public class GenericDAOImpl<T,K> implements GenericDAO<T,K> {
+	private EntityManager em;
+	private Class<T> classz;
+	
+	
+
+	public GenericDAOImpl(EntityManager em) {
+		super();
+		this.em =em;
+		classz=(Class<T>)((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+	
+	}
+
+	@Override
+	public void cadastrar(T entidade) {
+		em.persist(entidade);
+		
+	}
+
+	@Override
+	public void atualizar(T entidade) {
+		em.merge(entidade);
+		
+	}
+
+	@Override
+	public T buscar(K codigo) throws CodigoInexistenteException {
+		// TODO Auto-generated method stub
+		return em.find(classz,codigo);
+	}
+
+	@Override
+	public void remover(K codigo) throws CodigoInexistenteException {
+		// TODO Auto-generated method stub
+		T tabela = this.buscar(codigo);
+		if(tabela ==null) {
+			throw new CodigoInexistenteException("Código inexixtente");
+		}
+		em.remove(tabela);
+	}
+
+	@Override
+	public void commit() throws CommitException {
+		// TODO Auto-generated method stub
+		try {
+			em.getTransaction().begin();
+			em.getTransaction().commit();
+		} catch (Exception e) {
+			em.getTransaction().rollback();
+			throw new CommitException();
+		} 
+	}
+	
+
+}

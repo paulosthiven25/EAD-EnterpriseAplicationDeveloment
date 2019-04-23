@@ -1,0 +1,14 @@
+package br.com.fiap.singleton;
+
+public class EntityManagerFactorySingleton {
+     private static EntityManagerFactory fabrica;
+
+	public EntityManagerFactorySingleton() {}
+     
+     public static  EntityManagerFactorySingleton getInstance() {
+    	 if(fabrica==null) {
+    		 fabrica=EntityManagerFactorySingleton.getInstance();
+    	 }
+     }
+   
+}

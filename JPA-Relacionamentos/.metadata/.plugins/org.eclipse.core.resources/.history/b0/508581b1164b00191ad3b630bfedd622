@@ -1,0 +1,32 @@
+package br.com.fiap.test;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import javax.persistence.EntityManager;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import br.com.fiap.DAO.DiretorDAO;
+import br.com.fiap.DAO.EscolaDAO;
+import br.com.fiap.DAOImpl.DiretorDAOImpl;
+import br.com.fiap.DAOImpl.EscolaDAOImpl;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+class DiretorTest {
+	private static DiretorDAO diretordao;
+	private static EscolaDAO escoladao;
+
+	@BeforeAll
+	public static void inicializar() {
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		diretordao=new DiretorDAOImpl(em);
+		escoladao= new EscolaDAOImpl(em);
+	}
+	@Test
+	void cadastro() {
+	
+		fail("Not yet implemented");
+	}
+
+}

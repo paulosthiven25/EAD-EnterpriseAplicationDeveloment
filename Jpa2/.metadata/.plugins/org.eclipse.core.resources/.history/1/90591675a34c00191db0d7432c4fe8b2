@@ -1,0 +1,39 @@
+package br.com.fiap.daoImpl;
+
+import br.com.fiap.dao.GenericDAO;
+import br.com.fiap.exception.CodigoInexistenteException;
+import br.com.fiap.exception.CommitException;
+
+public abstract class GenericDAOImpl implements GenericDAO {
+
+	@Override
+	public void cadastrar(Object tabela) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void remover(Object codigo) throws CodigoInexistenteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizar(Object tabela) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Object buscar(Object codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void commit() throws CommitException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

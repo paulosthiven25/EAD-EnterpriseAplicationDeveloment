@@ -1,0 +1,59 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="T_SALA")
+@SequenceGenerator(sequenceName="SQ_T_SALA",name="sala",allocationSize=1)
+public class Sala {
+	@Id
+	@GeneratedValue(generator="sala",strategy=GenerationType.SEQUENCE)
+	@Column(name="CD_SALA")
+	private int codigo;
+	@Column(name="NR_ANDAR")
+	private int andar;
+	@Column(name="QT_CAPACIDADE")
+	private int capacidade;
+	
+	
+	
+	public Sala(int codigo, int andar, int capacidade) {
+		super();
+		this.codigo = codigo;
+		this.andar = andar;
+		this.capacidade = capacidade;
+	}
+	public Sala(int andar, int capacidade) {
+		super();
+		this.andar = andar;
+		this.capacidade = capacidade;
+	}
+	public Sala() {
+		super();
+	}
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public int getAndar() {
+		return andar;
+	}
+	public void setAndar(int andar) {
+		this.andar = andar;
+	}
+	public int getCapacidade() {
+		return capacidade;
+	}
+	public void setCapacidade(int capacidade) {
+		this.capacidade = capacidade;
+	}
+
+}

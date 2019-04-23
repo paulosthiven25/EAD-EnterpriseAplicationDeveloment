@@ -1,0 +1,16 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import br.com.fiap.dao.TransporteDAO;
+
+class TransporteDAOTeste {
+private static TransporteDAO tdao;
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

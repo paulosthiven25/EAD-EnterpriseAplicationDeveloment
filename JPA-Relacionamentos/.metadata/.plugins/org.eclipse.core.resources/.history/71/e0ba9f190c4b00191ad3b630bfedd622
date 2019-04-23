@@ -1,0 +1,53 @@
+import java.lang.reflect.ParameterizedType;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.DAO.GenericDAO;
+import br.com.fiap.exception.CodigoInvalidoException;
+import br.com.fiap.exception.CommitException;
+
+public class GenericDAOImpl<T,K> implements GenericDAO<T,K> {
+	private EntityManager em;
+	private Class<T> classz;
+	
+	
+
+	public GenericDAOImpl(EntityManager em) {
+		super();
+		this.em =em;
+		classz=(Class<T>)((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+	
+	}
+
+	@Override
+	public void cadastrar(T entidade) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizar(T entidade) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public T buscar(K codigo) throws CodigoInvalidoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remover(K codigo) throws CodigoInvalidoException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void commit() throws CommitException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

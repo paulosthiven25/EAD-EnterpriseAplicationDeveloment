@@ -1,0 +1,17 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Entity;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="T_DIRETOR")
+@SequenceGenerator(sequenceName="SQ_T_DIRETOR",name="diretor",allocationSize=1)
+public class Diretor {
+    private int codigo;
+    private String nome;
+    private float salario;
+    private Calendar dataNascimento;
+}

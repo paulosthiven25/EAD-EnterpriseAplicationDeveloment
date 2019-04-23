@@ -1,0 +1,33 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import javax.persistence.EntityManager;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import br.com.fiap.dao.CasoTesteDAO;
+import br.com.fiap.dao.SistemaDAO;
+import br.com.fiap.daoImpl.CasoTestedaoImpl;
+import br.com.fiap.daoImpl.SistemadaoImpl;
+import br.com.fiap.entity.CasoTeste;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+class TesteCaso {
+	private static CasoTesteDAO ctdao;
+	private static SistemaDAO sisdao;
+	
+	@BeforeAll
+	public static void inicializar() {
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		ctdao = new CasoTestedaoImpl(em);
+		sisdao = new SistemadaoImpl(em);
+	}
+	
+	@Test
+	void cadastrar() {
+		CasoTeste ct = new CasoTeste();
+	}
+
+}

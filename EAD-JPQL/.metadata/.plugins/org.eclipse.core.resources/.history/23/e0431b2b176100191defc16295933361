@@ -1,0 +1,61 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import br.com.fiap.dao.EntityManagerFactorySingleton;
+import br.com.fiap.dao.PacoteDAO;
+import br.com.fiap.dao.TransporteDAO;
+import br.com.fiap.dao.impl.PacoteDAOImpl;
+import br.com.fiap.dao.impl.TransporteDAOImpl;
+import br.com.fiap.entity.Pacote;
+import br.com.fiap.entity.Transporte;
+
+class PacoteDAOImplTeste {
+	
+	private static PacoteDAO pacoteDAO;
+	private static TransporteDAO transportedao;	
+	
+	
+	@BeforeAll
+	public static void inicializar() {
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		pacoteDAO = new PacoteDAOImpl(em);
+		transportedao = new TransporteDAOImpl(em);
+	}
+
+	@Test
+	void buscarPorTransporte() {
+		//busca o transporte
+		Transporte t = transportedao.pesquisar(1);
+		//busca os pacotes por transporte
+		List<Pacote> pacotes = pacoteDAO.listarPacotesPorTransporte(t);
+		//validar se esta certo
+		for (Pacote pacote : pacotes) {
+			assertEquals(pacote.getTransporte().getId(),t.getId());
+		}
+		
+	}
+	
+	@Test
+	void buscarPorDatas() {
+		Calendar d1 = new GregorianCalendar(2017, Calendar.JANUARY,3);
+		Calendar d2 = new GregorianCalendar(2018, Calendar.JANUARY,3);
+		List<Pacote> lista = pacoteDAO.buscarPorDatas(d1, d2);
+		
+		for(Pacote p:lista) {
+			assertTrue(p.getDataSaida().after(d1) && p.getDataSaida().before(d2));
+		}
+		
+	}
+
+}

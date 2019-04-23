@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.fiap.dao.TransporteDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.ClienteDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.ClienteDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Cliente"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Reserva"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.PacoteDAOImpl"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.EntityManagerFactorySingleton"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.TransporteDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Transporte"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Pacote"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.PacoteDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+<fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
+</qualifiedTypeNameHistroy>

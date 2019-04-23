@@ -1,0 +1,39 @@
+package br.com.fiap.dao.impl;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.TypedQuery;
+
+import br.com.fiap.dao.ClienteDAO;
+import br.com.fiap.entity.Cliente;
+
+public class ClienteDAOImpl extends GenericDAOImpl<Cliente,Integer> implements ClienteDAO{
+
+	public ClienteDAOImpl(EntityManager entityManager) {
+		super(entityManager);
+	}
+
+	@Override
+	public List<Cliente> listar() {
+	TypedQuery<Cliente> q = em.createQuery("from Cliente c",Cliente.class);
+	return q.getResultList();
+	}
+
+	@Override
+	public List<Cliente> listarPorNome(String nome) {
+		TypedQuery<Cliente> q = em.createQuery("from Cliente c where c.nome like :nom",Cliente.class);
+		q.setParameter(":nom","%"+nome+"%");
+		return q.getResultList();
+	}
+
+	@Override
+	public List<Cliente> listarPorEstado(String uf) {
+		TypedQuery<Cliente> q = em.createQuery("from Cliente c where c.nome like :vuf",Cliente.class);
+		q.setParameter("vuf","%"+uf.toUpperCase()+"%");
+		return q.getResultList();
+	}
+
+	
+
+}

@@ -1,0 +1,25 @@
+package br.com.fiap.dao.impl;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.TransporteDAO;
+import br.com.fiap.entity.Transporte;
+
+public class TransporteDAOImpl extends GenericDAOImpl<Transporte,Integer> implements TransporteDAO{
+
+	public TransporteDAOImpl(EntityManager entityManager) {
+		super(entityManager);
+	}
+
+	@Override
+	public List<Transporte> listar() {
+		// Criar a query
+		Typed<Transporte> query  = em.
+		
+		//executar a query
+		return null;
+	}
+
+}

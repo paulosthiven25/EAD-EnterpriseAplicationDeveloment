@@ -1,0 +1,30 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="TAB_CASO_TESTE")
+@SequenceGenerator(name="PQ",sequenceName="SQ_TAB_CASO_TESTE",allocationSize=1)
+public class CasoTeste {
+	@GeneratedValue(generator="PQ",strategy=GenerationType.SEQUENCE)
+	@Id
+	@Column(name="COD_CASO_TESTE")
+	private int codigo;
+	@Column(name="NOM_CASO_TESTE")
+	private String nome;
+	@Column(name="DES_CASO_TESTE")
+	private String descricao;
+	@ManyToOne
+	@JoinColumn(name="COD_SISTEMA")
+	private Sistema sistema;
+	
+
+}

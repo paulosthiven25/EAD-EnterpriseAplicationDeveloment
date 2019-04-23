@@ -1,0 +1,19 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import br.com.fiap.dao.CasoTesteDAO;
+import br.com.fiap.dao.SistemaDAO;
+
+class TesteCaso {
+	private CasoTesteDAO ctdao;
+	private SistemaDAO sisdao;
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

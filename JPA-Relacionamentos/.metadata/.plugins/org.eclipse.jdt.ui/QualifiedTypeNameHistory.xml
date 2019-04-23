@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+<fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Professor"/>
+<fullyQualifiedTypeName name="br.com.fiap.DAO.GenericDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.exception.CommitException"/>
+<fullyQualifiedTypeName name="br.com.fiap.DAO.EscolaDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Sala"/>
+<fullyQualifiedTypeName name="br.com.fiap.exception.CodigoInexistenteException"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="br.com.fiap.DAO.DiretorDAO"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+<fullyQualifiedTypeName name="br.com.fiap.DAOImpl.DiretorDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.singleton.EntityManagerFactorySingleton"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Escola"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Diretor"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+</qualifiedTypeNameHistroy>
