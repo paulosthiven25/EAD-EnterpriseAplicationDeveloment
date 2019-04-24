@@ -70,8 +70,8 @@ public class ClienteDAOImpl extends GenericDAOImpl<Cliente,Integer> implements C
 		return em.createNamedQuery("Cliente.porCpf",String.class).getResultList();
 	}
 	
-	public List<Cliente> listarNomeeIdPorCep(int cpf){
-		return em.createNamedQuery("Cliente.listarIdENomePorCep",Cliente.class).setParameter("c",cpf ).getResultList();
+	public List<Cliente> listarNomeeCpfPorCep(int cpf){
+		return em.createNamedQuery("Cliente.listarCpfENomePorCep",Cliente.class).setParameter("c",cpf ).getResultList();
 	}
 	
 

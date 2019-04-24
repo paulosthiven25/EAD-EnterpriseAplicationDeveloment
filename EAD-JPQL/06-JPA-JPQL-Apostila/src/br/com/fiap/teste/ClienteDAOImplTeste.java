@@ -94,9 +94,11 @@ private static ClienteDAO cdao;
 	
 	@Test
 	void listarNomeeIdPorCep() {
-		List<Cliente> lista = cdao.listarNomeeIdPorCep(12220999);
+		List<Cliente> lista = cdao.listarNomeeCpfPorCep(12220999);
 		for (Cliente cliente : lista) {
 			assertTrue(cliente.getEndereco().getCep()==12220999);
+			assertTrue(cliente.getNome()=="Jean");
+			assertTrue(cliente.getCpf()=="90028383848");
 		}
 	}
 

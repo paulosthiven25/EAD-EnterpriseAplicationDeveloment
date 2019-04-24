@@ -19,7 +19,7 @@ import javax.persistence.TemporalType;
 @NamedQueries({
 @NamedQuery(name="Cliente.listar",query="select c from Cliente c "),
 @NamedQuery(name="Cliente.porCpf",query="select c.cpf from Cliente c "),
-@NamedQuery(name="Cliente.listarIdENomePorCep",query="select c from Cliente c where c.endereco.cep = :c ")})
+@NamedQuery(name="Cliente.listarCpfENomePorCep",query="select new br.com.fiap.entity.Cliente(c.nome,c.cpf) from Cliente c where c.endereco.cep = :c ")})
 
 @Entity
 @SequenceGenerator(name="seqCliente", sequenceName="SEQ_CLIENTE", allocationSize=1)
@@ -56,7 +56,11 @@ public class Cliente {
 	public Cliente() {
 	}
 	
-	
+	public Cliente(String nome, String cpf) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+	}
 
 	public Cliente(int id, String nome) {
 		super();

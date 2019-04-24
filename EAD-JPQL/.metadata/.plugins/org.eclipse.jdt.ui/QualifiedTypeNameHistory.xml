@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="br.com.fiap.dao.TransporteDAO"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.ClienteDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.ClienteDAOImpl"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Cliente"/>
@@ -21,4 +20,27 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
+<fullyQualifiedTypeName name="javax.persistence.SecondaryTable"/>
+<fullyQualifiedTypeName name="javax.persistence.PrimaryKeyJoinColumn"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
+<fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.PessoaDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.PessoaDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Pessoa"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.PessoaFisica"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.PessoaJuridica"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.ContaPK"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.ContaDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.AgenciaDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.ContaDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.AgenciaDAOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Agencia"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Conta"/>
 </qualifiedTypeNameHistroy>
