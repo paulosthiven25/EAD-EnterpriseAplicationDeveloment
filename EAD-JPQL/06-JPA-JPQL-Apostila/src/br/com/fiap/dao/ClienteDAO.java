@@ -15,7 +15,7 @@ public interface ClienteDAO extends GenericDAO<Cliente,Integer>{
 	List<Cliente> listar3ClientesMaisNovos ();
 	long qtddeClientesPorEstado (String uf);
 	List<String> listarCpf();
-	public List<Cliente>listarNomeeCpfPorCep(int cpf);
+	public Cliente listarNomeeCpfPorCep(int cep);
 	
 
 }
