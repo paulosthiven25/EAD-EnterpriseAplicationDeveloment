@@ -7,6 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -33,6 +36,16 @@ public class Corrida {
 	@Column(name="VL_CORRIDA",nullable=false)
 	private float valor;
 	
+	@OneToOne(mappedBy="corrida")
+	private Pagamento pagamento;
+	
+	@ManyToOne
+	@JoinColumn(name="CD_PASSAGEIRO")
+	private Passageiro passageiro;
+	
+	@ManyToOne
+	@JoinColumn(name="CD_MOTORISTA")
+	private Motorista motorista;
 	
 	
 	

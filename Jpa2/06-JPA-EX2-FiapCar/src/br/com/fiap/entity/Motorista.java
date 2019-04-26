@@ -1,15 +1,19 @@
 package br.com.fiap.entity;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
-
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.Lob;
-
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -35,6 +39,15 @@ public class Motorista {
 	@Enumerated(EnumType.STRING)
 	private Genero genero;
 	
+	@OneToMany(mappedBy="motorista")
+	private List<Corrida> corridas = new ArrayList<>();
+	
+	
+	@ManyToMany
+	@JoinTable(name="T_PACOTE_CLIENTE",
+	joinColumns=@JoinColumn(name="CD_MOTORISTA"),
+	inverseJoinColumns=@JoinColumn(name="CD_VEICULO"))
+	private List<Veiculo> veiculos=new ArrayList<>();
 	
 	
 	

@@ -9,6 +9,8 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -24,6 +26,7 @@ public class Pagamento {
 	@GeneratedValue(generator="Pagamento",strategy=GenerationType.SEQUENCE)
 	@Id
 	@Column(name="CD_PAGAMENTO")
+	
 	private int codigo;
 	@Column(name="DT_PAGAMENTO",nullable=false)
 	@CreationTimestamp
@@ -34,6 +37,10 @@ public class Pagamento {
 	@Column(name="DS_FORMA_PAGAMENTO",nullable=false)
 	@Enumerated(EnumType.STRING)
 	private FormaPagamento formaPagamento;
+	
+	@OneToOne
+	@JoinColumn(name="CD_CORRIDA")
+	private Corrida corrida;
 	
 	
 	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_99csIEy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_99csIUy7Eem_gauRoqaNNA" bindingContexts="_99eiQUy7Eem_gauRoqaNNA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VeiculoResource.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/resource/VeiculoResource.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/resource/VeiculoResource.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PassageiroDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/PassageiroDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/PassageiroDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VeiculoDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/VeiculoDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/VeiculoDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MotoristaDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/MotoristaDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/MotoristaDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CorridaDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/CorridaDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/CorridaDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GenericDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/GenericDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/GenericDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;06-JPA-EX2-FiapCar/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;05-JPA-Design-Patterns/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/05-JPA-Design-Patterns/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LivroDAOImpl.java&quot; tooltip=&quot;05-JPA-Design-Patterns/src/br/com/fiap/dao/impl/LivroDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/05-JPA-Design-Patterns/src/br/com/fiap/dao/impl/LivroDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GenericDAO.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/dao/GenericDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/dao/GenericDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GenericDAOImpl.java&quot; tooltip=&quot;05-JPA-Design-Patterns/src/br/com/fiap/dao/impl/GenericDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/05-JPA-Design-Patterns/src/br/com/fiap/dao/impl/GenericDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GenericDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/GenericDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/GenericDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VeiculoDAO.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/dao/VeiculoDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/dao/VeiculoDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PassageiroDAO.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/dao/PassageiroDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/dao/PassageiroDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PagamentoDAO.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/dao/PagamentoDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/dao/PagamentoDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Passageiro.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Passageiro.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Passageiro.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Corrida.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Corrida.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Corrida.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Motorista.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Motorista.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Motorista.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Veiculo.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Veiculo.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Veiculo.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Pagamento.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Pagamento.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Pagamento.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;06-JPA-EX2-FiapCar/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;web.xml&quot; tooltip=&quot;ProjetoFiapCar-Webservices/WebContent/WEB-INF/web.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoFiapCar-Webservices/WebContent/WEB-INF/web.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor&quot; name=&quot;persistence.xml&quot; tooltip=&quot;ProjetoFiapCar-Webservices/src/META-INF/persistence.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoFiapCar-Webservices/src/META-INF/persistence.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;ProjetoFiapCar-Webservices/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetoFiapCar-Webservices/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VeiculoResource.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/resource/VeiculoResource.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/resource/VeiculoResource.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PassageiroDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/PassageiroDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/PassageiroDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VeiculoDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/VeiculoDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/VeiculoDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MotoristaDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/MotoristaDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/MotoristaDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CorridaDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/CorridaDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/CorridaDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GenericDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/GenericDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/GenericDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_99csIUy7Eem_gauRoqaNNA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_99csIky7Eem_gauRoqaNNA" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -75,6 +75,7 @@
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_99csJUy7Eem_gauRoqaNNA" selectedElement="_99csK0y7Eem_gauRoqaNNA" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_99csJky7Eem_gauRoqaNNA" elementId="topLeft" containerData="2500" selectedElement="_99csJ0y7Eem_gauRoqaNNA">
+              <tags>MinimizedByZoom</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_99csJ0y7Eem_gauRoqaNNA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_99dUIUy7Eem_gauRoqaNNA"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_99csKEy7Eem_gauRoqaNNA" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_99dUkEy7Eem_gauRoqaNNA"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_99csKUy7Eem_gauRoqaNNA" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_99dUkUy7Eem_gauRoqaNNA"/>
@@ -82,14 +83,18 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_99csK0y7Eem_gauRoqaNNA" containerData="7500" selectedElement="_99csLEy7Eem_gauRoqaNNA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_99csLEy7Eem_gauRoqaNNA" containerData="7000" selectedElement="_99csLUy7Eem_gauRoqaNNA" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_99csLUy7Eem_gauRoqaNNA" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_99dUA0y7Eem_gauRoqaNNA"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_99csLUy7Eem_gauRoqaNNA" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_99dUA0y7Eem_gauRoqaNNA">
+                  <tags>Maximized</tags>
+                </children>
                 <children xsi:type="basic:PartStack" xmi:id="_99csLky7Eem_gauRoqaNNA" elementId="topRight" toBeRendered="false" containerData="3000">
                   <children xsi:type="advanced:Placeholder" xmi:id="_99csL0y7Eem_gauRoqaNNA" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" ref="_99d6REy7Eem_gauRoqaNNA"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_99csMEy7Eem_gauRoqaNNA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" toBeRendered="false" ref="_99d6R0y7Eem_gauRoqaNNA"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_99csMUy7Eem_gauRoqaNNA" elementId="bottomRight" containerData="3000" selectedElement="_99csMky7Eem_gauRoqaNNA">
+              <children xsi:type="basic:PartStack" xmi:id="_99csMUy7Eem_gauRoqaNNA" elementId="bottomRight" visible="false" containerData="3000" selectedElement="_99csMky7Eem_gauRoqaNNA">
                 <tags>Java</tags>
+                <tags>Minimized</tags>
+                <tags>MinimizedByZoom</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_99csMky7Eem_gauRoqaNNA" elementId="org.eclipse.ui.views.AllMarkersView" ref="_99dUk0y7Eem_gauRoqaNNA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_99csM0y7Eem_gauRoqaNNA" elementId="org.eclipse.ui.views.PropertySheet" ref="_99dUpky7Eem_gauRoqaNNA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_99csNEy7Eem_gauRoqaNNA" elementId="org.eclipse.wst.server.ui.ServersView" ref="_99dUqUy7Eem_gauRoqaNNA"/>
@@ -138,173 +143,35 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_99dUA0y7Eem_gauRoqaNNA" elementId="org.eclipse.ui.editorss" selectedElement="_99dUBEy7Eem_gauRoqaNNA">
-      <children xsi:type="basic:PartStack" xmi:id="_99dUBEy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_rb7cQEy8EemJ9uPQkrhQow">
+      <children xsi:type="basic:PartStack" xmi:id="_99dUBEy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_4tPt0GhGEemOM7PQT--DVA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_99dUBUy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="GenericDAOImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GenericDAOImpl.java&quot; partName=&quot;GenericDAOImpl.java&quot; title=&quot;GenericDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/GenericDAOImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/GenericDAOImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1434&quot; selectionTopPixel=&quot;175&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_4if2YGhGEemOM7PQT--DVA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Veiculo.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Veiculo.java&quot; partName=&quot;Veiculo.java&quot; title=&quot;Veiculo.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Veiculo.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Veiculo.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;708&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUBky7Eem_gauRoqaNNA" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUB0y7Eem_gauRoqaNNA" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUCEy7Eem_gauRoqaNNA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_99dUCUy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="05-JPA-Design-Patterns/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;05-JPA-Design-Patterns/pom.xml&quot; title=&quot;05-JPA-Design-Patterns/pom.xml&quot; tooltip=&quot;05-JPA-Design-Patterns/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/05-JPA-Design-Patterns/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_99dUCky7Eem_gauRoqaNNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="06-JPA-EX2-FiapCar/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;06-JPA-EX2-FiapCar/pom.xml&quot; title=&quot;06-JPA-EX2-FiapCar/pom.xml&quot; tooltip=&quot;06-JPA-EX2-FiapCar/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUC0y7Eem_gauRoqaNNA" elementId="org.eclipse.core.runtime.xml.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.EditorContext</tags>
-            <tags>popup:.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUDEy7Eem_gauRoqaNNA" elementId="org.eclipse.core.runtime.xml.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.RulerContext</tags>
-            <tags>popup:.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUDUy7Eem_gauRoqaNNA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUDky7Eem_gauRoqaNNA" elementId="org.eclipse.core.runtime.xml.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.EditorContext</tags>
-            <tags>popup:.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUD0y7Eem_gauRoqaNNA" elementId="org.eclipse.core.runtime.xml.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.RulerContext</tags>
-            <tags>popup:.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUEEy7Eem_gauRoqaNNA" elementId="org.eclipse.m2e.core.pomFile.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.m2e.core.pomFile.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUEUy7Eem_gauRoqaNNA" elementId="org.eclipse.m2e.core.pomFile.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.m2e.core.pomFile.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUEky7Eem_gauRoqaNNA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUE0y7Eem_gauRoqaNNA" elementId="org.eclipse.m2e.core.pomFile.source.EditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.m2e.core.pomFile.source.EditorContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.EditorContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.EditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUFEy7Eem_gauRoqaNNA" elementId="org.eclipse.m2e.core.pomFile.source.RulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.m2e.core.pomFile.source.RulerContext</tags>
-            <tags>popup:org.eclipse.core.runtime.xml.source.source.RulerContext</tags>
-            <tags>popup:org.eclipse.wst.sse.ui.StructuredTextEditor.RulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_99dUFUy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CorridaDAOImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CorridaDAOImpl.java&quot; partName=&quot;CorridaDAOImpl.java&quot; title=&quot;CorridaDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/CorridaDAOImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/CorridaDAOImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;238&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUFky7Eem_gauRoqaNNA" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUF0y7Eem_gauRoqaNNA" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUGEy7Eem_gauRoqaNNA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_99dUGUy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MotoristaDAOImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MotoristaDAOImpl.java&quot; partName=&quot;MotoristaDAOImpl.java&quot; title=&quot;MotoristaDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/MotoristaDAOImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/MotoristaDAOImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;67&quot; selectionOffset=&quot;182&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUGky7Eem_gauRoqaNNA" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUG0y7Eem_gauRoqaNNA" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUHEy7Eem_gauRoqaNNA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_99dUHUy7Eem_gauRoqaNNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="VeiculoDAOImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VeiculoDAOImpl.java&quot; partName=&quot;VeiculoDAOImpl.java&quot; title=&quot;VeiculoDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/VeiculoDAOImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/VeiculoDAOImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;268&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUHky7Eem_gauRoqaNNA" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUH0y7Eem_gauRoqaNNA" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_99dUIEy7Eem_gauRoqaNNA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_rb7cQEy8EemJ9uPQkrhQow" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PassageiroDAOImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PassageiroDAOImpl.java&quot; partName=&quot;PassageiroDAOImpl.java&quot; title=&quot;PassageiroDAOImpl.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/PassageiroDAOImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/daoImpl/PassageiroDAOImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;285&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_4tPt0GhGEemOM7PQT--DVA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Motorista.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Motorista.java&quot; partName=&quot;Motorista.java&quot; title=&quot;Motorista.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Motorista.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Motorista.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;703&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_naEgYGhHEemOM7PQT--DVA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Corrida.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Corrida.java&quot; partName=&quot;Corrida.java&quot; title=&quot;Corrida.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Corrida.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Corrida.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1165&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_pKmC0GhHEemOM7PQT--DVA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Passageiro.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Passageiro.java&quot; partName=&quot;Passageiro.java&quot; title=&quot;Passageiro.java&quot; tooltip=&quot;06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Passageiro.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/06-JPA-EX2-FiapCar/src/br/com/fiap/entity/Passageiro.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;25&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -489,7 +356,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_99d6UUy7Eem_gauRoqaNNA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nC4YYEy8EemJ9uPQkrhQow" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_99hmiky7Eem_gauRoqaNNA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NwkswGg-EemOM7PQT--DVA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_99hmiky7Eem_gauRoqaNNA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_99d6Xky7Eem_gauRoqaNNA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -519,10 +386,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_99d6vky7Eem_gauRoqaNNA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_nC60oEy8EemJ9uPQkrhQow" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_99hmLUy7Eem_gauRoqaNNA"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_99d6yEy7Eem_gauRoqaNNA" elementId="org.eclipse.m2e.editor.MavenPomEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Nwksymg-EemOM7PQT--DVA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_99hmLUy7Eem_gauRoqaNNA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_99d6yky7Eem_gauRoqaNNA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -566,8 +430,8 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_99d66ky7Eem_gauRoqaNNA" elementId="org.eclipse.ui.trim.vertical2" toBeRendered="false" side="Right">
-      <children xsi:type="menu:ToolControl" xmi:id="_99d660y7Eem_gauRoqaNNA" elementId="bottomRight(IDEWindow).(org.eclipse.jst.j2ee.J2EEPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_99d66ky7Eem_gauRoqaNNA" elementId="org.eclipse.ui.trim.vertical2" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_99d660y7Eem_gauRoqaNNA" elementId="bottomRight(IDEWindow).(org.eclipse.jst.j2ee.J2EEPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>

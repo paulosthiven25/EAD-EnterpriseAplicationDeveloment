@@ -1,10 +1,14 @@
 package br.com.fiap.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 @Entity
@@ -20,6 +24,10 @@ public class Veiculo {
 	@Column(name="DS_COR",nullable=false,length=20)
 	private String cor;
 	private int ano;
+	
+	
+	@ManyToMany(mappedBy="veiculos")
+	private List<Motorista> motoristas=new ArrayList<>();
 	
 	
 	
