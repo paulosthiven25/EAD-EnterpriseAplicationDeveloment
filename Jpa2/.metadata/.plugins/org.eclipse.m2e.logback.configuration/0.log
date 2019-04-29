@@ -792,3 +792,549 @@ Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-sec
 2019-04-26 14:31:57,945 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
 2019-04-26 14:31:57,946 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-04-26 14:31:57,947 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:00:32,688 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-29 13:00:33,807 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-04-29 13:02:09,459 [Worker-7] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Error changing index details workspace://
+java.io.FileNotFoundException: C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_a.cfs (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.8.3.20180227-2135/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:236) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-04-29 13:02:09,481 [Worker-7] ERROR o.e.m.c.i.r.RepositoryRegistry - Could not add repository index
+org.eclipse.core.runtime.CoreException: Could not add repository index
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:945) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:878) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:163) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:236) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_a.cfs (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.closeInternal(IndexWriter.java:1638) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1602) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1578) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.context.NexusIndexWriter.close(NexusIndexWriter.java:58) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareCleanIndex(DefaultIndexingContext.java:235) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:205) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160) ~[org.eclipse.m2e.maven.indexer_1.8.3.20180227-2135/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:965) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:932) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	... 5 common frames omitted
+2019-04-29 13:02:09,735 [Worker-7] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server central: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-29 13:02:09,882 [Worker-7] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server snapshots: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-29 13:02:09,989 [Worker-7] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server central: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-29 13:02:09,991 [Worker-7] WARN  o.e.m.c.internal.embedder.MavenImpl - Failed to decrypt password for server snapshots: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:121) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:107) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.settings.crypto.DefaultSettingsDecrypter.decrypt(DefaultSettingsDecrypter.java:63) ~[maven-settings-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.decryptPassword(MavenImpl.java:547) ~[org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getAuthenticationInfo(RepositoryRegistry.java:214) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:258) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:47) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.sonatype.plexus.components.sec.dispatcher.SecDispatcherException: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:69) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.getSec(DefaultSecDispatcher.java:206) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher.decrypt(DefaultSecDispatcher.java:90) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 7 common frames omitted
+Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-security.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileInputStream.open(Unknown Source) ~[na:1.8.0_171]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_171]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.toStream(SecUtil.java:100) ~[plexus-sec-dispatcher-1.3.jar:na]
+	at org.sonatype.plexus.components.sec.dispatcher.SecUtil.read(SecUtil.java:56) ~[plexus-sec-dispatcher-1.3.jar:na]
+	... 9 common frames omitted
+2019-04-29 13:02:12,262 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 05-JPA-Design-Patterns:05-JPA-Design-Patterns:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\pom.xml.
+2019-04-29 13:02:12,810 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/com/h2database/h2/1.4.197/h2-1.4.197.pom
+2019-04-29 13:02:12,826 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/com/h2database/h2/1.4.197/h2-1.4.197.pom
+2019-04-29 13:02:12,846 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/com/h2database/h2/1.4.197/h2-1.4.197.jar
+2019-04-29 13:02:12,906 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/com/h2database/h2/1.4.197/h2-1.4.197.jar
+2019-04-29 13:02:13,441 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-EX2-FiapCar:06-JPA-EX2-FiapCar:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\pom.xml.
+2019-04-29 13:02:14,588 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:02:14,589 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\src\main\resources
+2019-04-29 13:02:14,590 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:02:14,591 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\src\test\resources
+2019-04-29 13:02:16,762 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:02:16,763 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:02:16,764 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:02:16,764 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:05:16,207 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-29 13:05:16,453 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 05-JPA-Design-Patterns:05-JPA-Design-Patterns:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\pom.xml.
+2019-04-29 13:05:16,492 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-EX2-FiapCar:06-JPA-EX2-FiapCar:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\pom.xml.
+2019-04-29 13:05:16,657 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05-JPA-Design-Patterns/src
+2019-04-29 13:05:16,657 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /05-JPA-Design-Patterns/src/test/java because it overlaps with /05-JPA-Design-Patterns/src
+2019-04-29 13:05:16,721 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06-JPA-EX2-FiapCar/src
+2019-04-29 13:05:16,722 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /06-JPA-EX2-FiapCar/src/test/java because it overlaps with /06-JPA-EX2-FiapCar/src
+2019-04-29 13:05:16,873 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-04-29 13:05:17,589 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:05:17,589 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\src\main\resources
+2019-04-29 13:05:17,591 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:05:17,592 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\src\test\resources
+2019-04-29 13:05:18,164 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:05:18,165 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:05:18,166 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:05:18,166 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:05:19,238 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:05:19,238 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:05:19,239 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:05:19,239 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:10:14,051 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:10:14,052 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:10:14,052 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:10:14,053 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:26:36,804 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:26:36,804 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:26:36,805 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:26:36,805 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:27:47,723 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:27:47,724 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:27:47,725 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:27:47,725 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:51:49,266 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:51:49,266 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:51:49,268 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:51:49,269 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:53:02,046 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:53:02,047 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:53:02,048 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:53:02,049 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:56:08,014 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:56:08,014 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:56:08,015 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:56:08,016 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:57:44,510 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:57:44,511 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:57:44,511 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:57:44,512 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:58:43,578 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:58:43,579 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:58:43,580 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:58:43,580 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 13:59:31,875 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:59:31,875 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 13:59:31,876 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:59:31,877 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:02:43,373 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:02:43,374 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:02:43,376 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:02:43,377 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:04:48,339 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:04:48,339 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:04:48,340 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:04:48,341 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:05:11,048 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:05:11,048 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:05:11,049 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:05:11,049 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:06:12,934 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:06:12,935 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:06:12,936 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:06:12,936 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:06:15,001 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:06:15,002 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:06:15,003 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:06:15,003 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:09:32,347 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:32,348 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:09:32,348 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:32,349 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:09:36,741 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:36,741 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:09:36,742 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:36,742 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:09:40,194 [Worker-53] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-29 14:09:40,233 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-EX2-FiapCar:06-JPA-EX2-FiapCar:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\pom.xml.
+2019-04-29 14:09:40,293 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06-JPA-EX2-FiapCar/src
+2019-04-29 14:09:40,293 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /06-JPA-EX2-FiapCar/src/test/java because it overlaps with /06-JPA-EX2-FiapCar/src
+2019-04-29 14:09:40,362 [Worker-53] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-04-29 14:09:40,750 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:40,750 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:09:40,751 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:40,752 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:09:57,097 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:57,098 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:09:57,099 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:09:57,099 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:11:38,939 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:11:38,940 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:11:38,940 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:11:38,941 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:11:51,618 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:11:51,619 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:11:51,619 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:11:51,620 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:12:15,166 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:12:15,167 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:12:15,168 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:12:15,168 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:12:22,746 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:12:22,747 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:12:22,748 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:12:22,748 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:13:11,422 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:13:11,423 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:13:11,424 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:13:11,424 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:14:13,220 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:14:13,220 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:14:13,221 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:14:13,221 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:14:34,054 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:14:34,055 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:14:34,055 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:14:34,056 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:14:58,256 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:14:58,257 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:14:58,257 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:14:58,258 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:16:25,501 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:16:25,502 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:16:25,503 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:16:25,503 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:16:48,714 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:16:48,715 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:16:48,715 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:16:48,716 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:19:59,169 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:19:59,170 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:19:59,170 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:19:59,171 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:20:23,584 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:20:23,585 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:20:23,585 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:20:23,586 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:20:27,738 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:20:27,739 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:20:27,739 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:20:27,740 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:21:19,571 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:21:19,571 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:21:19,572 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:21:19,572 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:21:28,307 [Worker-64] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-29 14:21:28,342 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-EX2-FiapCar:06-JPA-EX2-FiapCar:0.0.1-SNAPSHOT @ C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\pom.xml.
+2019-04-29 14:21:28,393 [Worker-64] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06-JPA-EX2-FiapCar/src
+2019-04-29 14:21:28,394 [Worker-64] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /06-JPA-EX2-FiapCar/src/test/java because it overlaps with /06-JPA-EX2-FiapCar/src
+2019-04-29 14:21:28,454 [Worker-64] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-04-29 14:21:28,818 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:21:28,819 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:21:28,819 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:21:28,820 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:22:48,400 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:22:48,401 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:22:48,401 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:22:48,402 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:23:41,564 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:23:41,564 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:23:41,565 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:23:41,565 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:26:21,669 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:26:21,670 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:26:21,670 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:26:21,671 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:26:57,168 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:26:57,169 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:26:57,169 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:26:57,170 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:30:37,139 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:30:37,139 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:30:37,140 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:30:37,140 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:32:48,800 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:32:48,801 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:32:48,801 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:32:48,801 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:33:01,213 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:33:01,214 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:33:01,215 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:33:01,215 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:33:07,407 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:33:07,407 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:33:07,408 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:33:07,408 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:34:46,133 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:34:46,134 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:34:46,134 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:34:46,135 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:36:41,761 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:36:41,762 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:36:41,762 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:36:41,763 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:38:24,316 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:38:24,316 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:38:24,317 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:38:24,318 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:38:40,061 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:38:40,062 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:38:40,062 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:38:40,063 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:45:48,540 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:45:48,541 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:45:48,542 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:45:48,542 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:45:53,871 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:45:53,871 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:45:53,872 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:45:53,872 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:46:07,144 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:07,145 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:46:07,146 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:07,146 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:46:09,895 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:09,895 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:46:09,896 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:09,896 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:46:17,721 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:17,721 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:46:17,722 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:17,722 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:46:20,998 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:20,999 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:46:20,999 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:21,000 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:46:59,997 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:59,998 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:46:59,998 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:46:59,998 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:47:21,065 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:47:21,066 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:47:21,067 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:47:21,067 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:47:30,340 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:47:30,341 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:47:30,341 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:47:30,341 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:47:56,879 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:47:56,879 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:47:56,880 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:47:56,880 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:49:17,454 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:49:17,455 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:49:17,455 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:49:17,455 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:49:24,282 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:49:24,282 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:49:24,283 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:49:24,283 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:51:42,854 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:51:42,855 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:51:42,856 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:51:42,856 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:54:53,684 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:54:53,685 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:54:53,685 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:54:53,686 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:55:22,174 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:55:22,174 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:55:22,175 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:55:22,175 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:56:18,991 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:56:18,991 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:56:18,992 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:56:18,992 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:57:34,210 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:57:34,211 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:57:34,212 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:57:34,213 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:58:22,447 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:58:22,448 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:58:22,448 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:58:22,449 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 14:58:30,942 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:58:30,943 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 14:58:30,943 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 14:58:30,944 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:00:28,230 [Worker-80] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar
+2019-04-29 15:00:28,680 [Worker-80] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://fiaprepodevops.fiap.com.br:8040/artifactory/libs-release/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar
+2019-04-29 15:00:28,856 [Worker-80] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.2.12.Final
+2019-04-29 15:00:29,052 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:00:29,053 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\src\main\resources
+2019-04-29 15:00:29,053 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:00:29,054 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\05-JPA-Design-Patterns\src\test\resources
+2019-04-29 15:02:37,926 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:02:37,926 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:02:37,927 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:02:37,927 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:05:26,063 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:05:26,063 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:05:26,064 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:05:26,064 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:07:03,470 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:07:03,470 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:07:03,470 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:07:03,471 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:08:02,373 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:08:02,374 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:08:02,374 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:08:02,374 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:08:07,288 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:08:07,289 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:08:07,289 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:08:07,289 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:09:49,797 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:09:49,798 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:09:49,799 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:09:49,799 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:10:41,362 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:10:41,362 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:10:41,363 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:10:41,363 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:11:14,714 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:11:14,714 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:11:14,715 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:11:14,715 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:11:33,157 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:11:33,158 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:11:33,158 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:11:33,159 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:16:55,738 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:16:55,739 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:16:55,739 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:16:55,740 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:17:19,407 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:17:19,408 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:17:19,409 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:17:19,409 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:17:38,721 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:17:38,722 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:17:38,722 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:17:38,722 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:18:02,299 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:18:02,299 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:18:02,300 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:18:02,300 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:20:10,384 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:20:10,385 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:20:10,385 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:20:10,386 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:20:13,559 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:20:13,559 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:20:13,560 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:20:13,560 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:24:04,068 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:24:04,069 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:24:04,069 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:24:04,070 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:24:37,555 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:24:37,556 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:24:37,556 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:24:37,556 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:25:21,967 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:25:21,968 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:25:21,970 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:25:21,971 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:26:07,070 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:26:07,071 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:26:07,071 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:26:07,072 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:26:45,705 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:26:45,706 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:26:45,706 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:26:45,707 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources
+2019-04-29 15:28:46,383 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:28:46,384 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\main\resources
+2019-04-29 15:28:46,385 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 15:28:46,385 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\EAD-EnterpriseAplicationDeveloment\Jpa2\06-JPA-EX2-FiapCar\src\test\resources

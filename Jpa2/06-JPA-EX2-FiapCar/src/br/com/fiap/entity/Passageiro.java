@@ -11,6 +11,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
@@ -19,9 +20,9 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="T_PASSAGEIRO")
-@SequenceGenerator(sequenceName="SQ_T_PASSAGEIRO",name="Passa",allocationSize=1)
+@SequenceGenerator(sequenceName="SQ_T_PASSAGEIRO",name="passageiro",allocationSize=1)
 public class Passageiro {
-	@GeneratedValue(generator="Passa",strategy=GenerationType.SEQUENCE)
+	@GeneratedValue(generator="passageiro",strategy=GenerationType.SEQUENCE)
 	@Id
 	@Column(name="CD_PASSAGEIRO")
 	private int codigo;
@@ -36,8 +37,7 @@ public class Passageiro {
 	
 	
 	@OneToMany(mappedBy="passageiro")
-	private List<Corrida> corridas = new ArrayList<>(); 
-	
+	private List<Corrida> corridas = new ArrayList<>();
 	
 	
 	public Passageiro() {

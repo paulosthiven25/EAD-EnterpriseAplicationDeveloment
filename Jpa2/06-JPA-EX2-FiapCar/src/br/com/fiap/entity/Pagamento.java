@@ -30,7 +30,7 @@ public class Pagamento {
 	private int codigo;
 	@Column(name="DT_PAGAMENTO",nullable=false)
 	@CreationTimestamp
-	@Temporal(TemporalType.TIME)
+	@Temporal(TemporalType.DATE)
 	private Calendar dt_pagamento;
 	@Column(name="VL_PAGAMENTO",nullable=false)
 	private float valor;
@@ -38,9 +38,7 @@ public class Pagamento {
 	@Enumerated(EnumType.STRING)
 	private FormaPagamento formaPagamento;
 	
-	@OneToOne
-	@JoinColumn(name="CD_CORRIDA")
-	private Corrida corrida;
+	
 	
 	
 	

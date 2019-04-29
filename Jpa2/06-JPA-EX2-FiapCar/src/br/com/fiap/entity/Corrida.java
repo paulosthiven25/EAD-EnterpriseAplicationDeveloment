@@ -1,12 +1,15 @@
 package br.com.fiap.entity;
 
+import java.io.Serializable;
 import java.util.Calendar;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
@@ -17,59 +20,99 @@ import javax.persistence.TemporalType;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name="T_CORRIDA")
-@SequenceGenerator(sequenceName="SQ_T_CORRIDA",name="Corre",allocationSize=1)
-public class Corrida {
-	@GeneratedValue(generator="Corre",strategy=GenerationType.SEQUENCE)
+@IdClass(CorridaPK.class)
+
+public class Corrida implements Serializable{
+	
+	
 	@Id
+	@SequenceGenerator(sequenceName="SQ_T_CORRIDA",name="Corre",allocationSize=1)
+	@GeneratedValue(generator="Corre",strategy=GenerationType.SEQUENCE)
 	@Column(name="CD_CORRIDA")
 	private int codigo;
+	
+	@Id
+	@ManyToOne(cascade=CascadeType.PERSIST)
+	@JoinColumn(name="CD_PASSAGEIRO")
+	private Passageiro passageiro;
+	
+	@Id
+	@ManyToOne(cascade=CascadeType.PERSIST)
+	@JoinColumn(name="CD_MOTORISTA")
+	private Motorista motorista;
+	
+	
 	@Column(name="DS_ORIGEM",length=150)
 	private String origem;
 	@Column(name="DS_DESTINO",length=150)
 	private String destino;
 	@CreationTimestamp
-	@Temporal(TemporalType.TIME)
+	@Temporal(TemporalType.DATE)
 	@Column(name="DT_CORRIDA")
 	private Calendar data;
 	@Column(name="VL_CORRIDA",nullable=false)
 	private float valor;
 	
-	@OneToOne(mappedBy="corrida")
-	private Pagamento pagamento;
-	
-	@ManyToOne
-	@JoinColumn(name="CD_PASSAGEIRO")
-	private Passageiro passageiro;
-	
-	@ManyToOne
-	@JoinColumn(name="CD_MOTORISTA")
-	private Motorista motorista;
+
 	
 	
 	
+	
+	
+	public Corrida(Passageiro passageiro, Motorista motorista, String origem, String destino, float valor) {
+		super();
+		this.passageiro = passageiro;
+		this.motorista = motorista;
+		this.origem = origem;
+		this.destino = destino;
+		this.valor = valor;
+	}
+
+
+
+
+
 	public Corrida() {
 		super();
 	}
 	
 	
-	public Corrida(String origem, String destino, float valor) {
-		super();
-		this.origem = origem;
-		this.destino = destino;
-		this.valor = valor;
+	
+
+
+	public Passageiro getPassageiro() {
+		return passageiro;
 	}
 
 
-	public Corrida(int codigo, String origem, String destino, Calendar data, float valor) {
-		super();
-		this.codigo = codigo;
-		this.origem = origem;
-		this.destino = destino;
-		this.data = data;
-		this.valor = valor;
+
+
+
+	public void setPassageiro(Passageiro passageiro) {
+		this.passageiro = passageiro;
 	}
+
+
+
+
+
+	public Motorista getMotorista() {
+		return motorista;
+	}
+
+
+
+
+
+	public void setMotorista(Motorista motorista) {
+		this.motorista = motorista;
+	}
+
+
+
 
 
 	public int getCodigo() {
