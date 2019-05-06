@@ -1,7 +1,9 @@
 package br.com.fiap.entity;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -12,7 +14,7 @@ import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -44,6 +46,9 @@ public class Corrida implements Serializable{
 	@JoinColumn(name="CD_MOTORISTA")
 	private Motorista motorista;
 	
+	@OneToMany(mappedBy="corrida")
+	private List<Pagamento> pagamentos=new ArrayList<>();
+	
 	
 	@Column(name="DS_ORIGEM",length=150)
 	private String origem;
@@ -55,6 +60,8 @@ public class Corrida implements Serializable{
 	private Calendar data;
 	@Column(name="VL_CORRIDA",nullable=false)
 	private float valor;
+	
+	
 	
 
 	
