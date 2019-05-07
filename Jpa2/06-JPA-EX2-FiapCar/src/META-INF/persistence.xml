@@ -10,7 +10,7 @@
 				create: drop e create
 				validate: validar as classes e tabelas
 			 -->
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.hbm2ddl.auto" value="create"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
 			<property name="javax.persistence.jdbc.user" value="rm81631"/>
 			<property name="javax.persistence.jdbc.password" value="250100"/>

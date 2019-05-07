@@ -15,6 +15,7 @@ import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -46,8 +47,8 @@ public class Corrida implements Serializable{
 	@JoinColumn(name="CD_MOTORISTA")
 	private Motorista motorista;
 	
-	@OneToMany(mappedBy="corrida")
-	private List<Pagamento> pagamentos=new ArrayList<>();
+	@OneToOne(mappedBy="corrida",cascade=CascadeType.PERSIST)
+	private Pagamento pagamento;
 	
 	
 	@Column(name="DS_ORIGEM",length=150)
@@ -151,6 +152,22 @@ public class Corrida implements Serializable{
 	}
 	public void setValor(float valor) {
 		this.valor = valor;
+	}
+
+
+
+
+
+	public Pagamento getPagamento() {
+		return pagamento;
+	}
+
+
+
+
+
+	public void setPagamento(Pagamento pagamento) {
+		this.pagamento = pagamento;
 	}
 	
 	

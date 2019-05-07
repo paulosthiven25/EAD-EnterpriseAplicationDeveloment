@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="br.com.fiap.exception.CodigoInexistenteException"/>
 <fullyQualifiedTypeName name="br.com.fiap.exception.CommitException"/>
-<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Cascade"/>
 <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
 <fullyQualifiedTypeName name="javax.persistence.IdClass"/>
@@ -25,10 +24,8 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.Passageiro"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Genero"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Corrida"/>
-<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
 <fullyQualifiedTypeName name="br.com.fiap.daoImpl.MotoristaDAOImpl"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
-<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -36,4 +33,9 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.Pagamento"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.FormaPagamento"/>
 <fullyQualifiedTypeName name="javax.persistence.ForeignKey"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumns"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
 </qualifiedTypeNameHistroy>

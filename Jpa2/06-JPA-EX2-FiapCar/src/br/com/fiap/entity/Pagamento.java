@@ -11,6 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
@@ -32,6 +33,7 @@ public class Pagamento {
 	@Column(name="CD_PAGAMENTO")
 	
 	private int codigo;
+	
 	@Column(name="DT_PAGAMENTO",nullable=false)
 	@CreationTimestamp
 	@Temporal(TemporalType.DATE)
@@ -42,21 +44,23 @@ public class Pagamento {
 	@Enumerated(EnumType.STRING)
 	private FormaPagamento formaPagamento;
 	
-	@ManyToOne
-	@JoinColumn(name="CD_CORRIDA")
+	public Corrida getCorrida() {
+		return corrida;
+	}
+	public void setCorrida(Corrida corrida) {
+		this.corrida = corrida;
+	}
+	
+	@OneToOne
 	private Corrida corrida;
-	@ManyToOne
-	@JoinColumn(name="CD_MOTORISTA")
-	private Motorista motorista;
-	@ManyToOne
-	@JoinColumn(name="CD_PASSAGEIRO")
-	private Passageiro passageiro;
-
 	
 	
-	
-	
-	
+	public Pagamento(float valor, FormaPagamento formaPagamento, Corrida corrida) {
+		super();
+		this.valor = valor;
+		this.formaPagamento = formaPagamento;
+		this.corrida = corrida;
+	}
 	public Pagamento(float valor, FormaPagamento formaPagamento) {
 		super();
 		this.valor = valor;
