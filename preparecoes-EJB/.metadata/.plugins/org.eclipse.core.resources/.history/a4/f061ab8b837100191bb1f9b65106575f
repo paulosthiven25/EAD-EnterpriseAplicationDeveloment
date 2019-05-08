@@ -1,0 +1,12 @@
+package br.com.fiap.teste;
+
+public class Serialização {
+
+	public static void main(String[] args) {
+		// Serializar um objeto para um arquivo
+		
+		Hospital hospital
+
+	}
+
+}

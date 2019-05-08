@@ -1,0 +1,22 @@
+package br.com.fiap.main;
+
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+
+import br.com.fiap.BO.CalculadoraBO;
+import br.com.fiap.BO.impl.CalculadoraBOImpl;
+
+public class Sever {
+
+	public static void main(String[] args) throws Exception {
+		// Registrar o objeto para acesso emoto
+		Registry regisry = LocateRegistry.createRegistry(8080);
+		
+		CalculadoraBO bo = new CalculadoraBOImpl();
+		System.out.println("Registrando o objeto para acesso remoto");
+		
+		Registry.bind("calc",bo)
+
+	}
+
+}

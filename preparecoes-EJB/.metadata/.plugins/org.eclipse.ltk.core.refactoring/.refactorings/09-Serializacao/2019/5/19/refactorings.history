@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;br.com.fiap.entity&apos; to &apos;10-Socket-Server/src&apos;&#x0D;&#x0A;- Original project: &apos;09-Serializacao&apos;&#x0D;&#x0A;- Destination element: &apos;10-Socket-Server/src&apos;&#x0D;&#x0A;- Original element: &apos;09-Serializacao/src/br.com.fiap.entity&apos;" description="Copy package" destination="=10-Socket-Server/src" element1="/src&lt;br.com.fiap.entity" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1557315514110" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;br.com.fiap.BO&apos; to &apos;13-RMI-Client/src&apos;&#x0D;&#x0A;- Original project: &apos;12-RMI-Server&apos;&#x0D;&#x0A;- Destination element: &apos;13-RMI-Client/src&apos;&#x0D;&#x0A;- Original element: &apos;12-RMI-Server/src/br.com.fiap.BO&apos;" description="Copy package" destination="=13-RMI-Client/src" element1="/src&lt;br.com.fiap.BO" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1557318423340" version="1.0"/>
+</session>

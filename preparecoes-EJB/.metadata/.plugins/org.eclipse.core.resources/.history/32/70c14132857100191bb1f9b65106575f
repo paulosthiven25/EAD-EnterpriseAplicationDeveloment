@@ -1,0 +1,13 @@
+package br.com.fiap.teste;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Desserializacao {
+	 public static void main(String[] args) throws IOException {
+		//Ler o arquivo e desserializar o objeto Hospital
+		 FileInputStream file = new FileInputStream("saida.txt");
+	}
+
+}

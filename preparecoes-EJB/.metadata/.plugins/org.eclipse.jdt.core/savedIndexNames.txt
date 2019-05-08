@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+D:\09-Serialização\.metadata\.plugins\org.eclipse.jdt.core
+2375667075.index
+1404805766.index
+1921078003.index
+2840315848.index
