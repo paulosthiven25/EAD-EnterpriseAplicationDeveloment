@@ -39,7 +39,22 @@ public class Passageiro {
 	@OneToMany(mappedBy="passageiro")
 	private List<Corrida> corridas = new ArrayList<>();
 	
+
 	
+	
+	
+	public List<Corrida> getCorridas() {
+		return corridas;
+	}
+
+
+
+	public void setCorridas(List<Corrida> corridas) {
+		this.corridas = corridas;
+	}
+
+
+
 	public Passageiro() {
 		super();
 	}

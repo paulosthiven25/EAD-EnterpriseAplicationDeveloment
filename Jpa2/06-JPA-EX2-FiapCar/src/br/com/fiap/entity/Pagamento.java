@@ -34,7 +34,7 @@ public class Pagamento {
 	
 	private int codigo;
 	
-	@Column(name="DT_PAGAMENTO",nullable=false)
+	@Column(name="DT_PAGAMENTO")
 	@CreationTimestamp
 	@Temporal(TemporalType.DATE)
 	private Calendar dt_pagamento;
@@ -52,6 +52,10 @@ public class Pagamento {
 	}
 	
 	@OneToOne
+	@JoinColumns({
+		@JoinColumn(name = "CD_CORRIDA", referencedColumnName = "CD_CORRIDA"),
+		@JoinColumn(name = "CD_PASSAGEIRO", referencedColumnName ="CD_PASSAGEIRO" ),
+		@JoinColumn(name = "CD_MOTORISTA", referencedColumnName = "CD_MOTORISTA") })
 	private Corrida corrida;
 	
 	

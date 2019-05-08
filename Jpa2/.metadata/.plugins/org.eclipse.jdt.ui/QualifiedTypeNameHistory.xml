@@ -11,7 +11,6 @@
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.CorridaPK"/>
-<fullyQualifiedTypeName name="br.com.fiap.dao.MotoristaDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.PassageiroDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.CorridaDAO"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
@@ -24,11 +23,9 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.Passageiro"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Genero"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Corrida"/>
-<fullyQualifiedTypeName name="br.com.fiap.daoImpl.MotoristaDAOImpl"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Pagamento"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.FormaPagamento"/>
@@ -38,4 +35,8 @@
 <fullyQualifiedTypeName name="javax.persistence.JoinColumns"/>
 <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.MotoristaDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.daoImpl.MotoristaDAOImpl"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
 </qualifiedTypeNameHistroy>

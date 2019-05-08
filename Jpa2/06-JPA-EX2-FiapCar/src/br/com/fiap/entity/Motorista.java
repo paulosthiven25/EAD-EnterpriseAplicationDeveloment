@@ -16,6 +16,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.Lob;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.SecondaryTable;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -25,6 +27,7 @@ import javax.persistence.TemporalType;
 @Entity
 @Table(name="T_MOTORISTA")
 @SequenceGenerator(sequenceName="SQ_T_MOTORISTA",name="motorista",allocationSize=1)
+@SecondaryTable(name="T_DADOS_MOTORISTA",pkJoinColumns={@PrimaryKeyJoinColumn(name="NR_CARTEIRA")})
 public class Motorista {
 	@GeneratedValue(generator="motorista",strategy=GenerationType.SEQUENCE)
 	@Id
@@ -52,32 +55,97 @@ public class Motorista {
 	inverseJoinColumns=@JoinColumn(name="CD_VEICULO"))
 	private List<Veiculo> veiculos=new ArrayList<>();
 	
+	@Column(name="NR_BANCO",table="T_DADOS_MOTORISTA",nullable=false)
+	private int numeroBanco;
 	
+	@Column(name="NR_AGENCIA",table="T_DADOS_MOTORISTA",nullable=false)
+	private int numeroAgencia;
 	
-	
+	@Column(name="NR_CONTA",table="T_DADOS_MOTORISTA",nullable=false)
+	private int numeroConta;
 	
 	public Motorista() {
 		super();
 	}
 	
-	public Motorista(String nome, Calendar dataNascimento, byte[] foto, Genero genero) {
+
+	
+	
+	public Motorista(String nome, Calendar dataNascimento, byte[] foto, Genero genero, int numeroBanco,
+			int numeroAgencia, int numeroConta) {
 		super();
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
 		this.foto = foto;
 		this.genero = genero;
+		this.numeroBanco = numeroBanco;
+		this.numeroAgencia = numeroAgencia;
+		this.numeroConta = numeroConta;
 	}
-	
+
+
+
+
+	public List<Corrida> getCorridas() {
+		return corridas;
+	}
+
+	public void setCorridas(List<Corrida> corridas) {
+		this.corridas = corridas;
+	}
+
+	public List<Veiculo> getVeiculos() {
+		return veiculos;
+	}
+
+	public void setVeiculos(List<Veiculo> veiculos) {
+		this.veiculos = veiculos;
+	}
+
+
 	
 
-	public Motorista(int codigo, String nome, Calendar dataNascimento, byte[] foto, Genero genero) {
-		super();
-		this.codigo = codigo;
-		this.nome = nome;
-		this.dataNascimento = dataNascimento;
-		this.foto = foto;
-		this.genero = genero;
+	public int getNumeroBanco() {
+		return numeroBanco;
 	}
+
+
+
+
+	public void setNumeroBanco(int numeroBanco) {
+		this.numeroBanco = numeroBanco;
+	}
+
+
+
+
+	public int getNumeroAgencia() {
+		return numeroAgencia;
+	}
+
+
+
+
+	public void setNumeroAgencia(int numeroAgencia) {
+		this.numeroAgencia = numeroAgencia;
+	}
+
+
+
+
+	public int getNumeroConta() {
+		return numeroConta;
+	}
+
+
+
+
+	public void setNumeroConta(int numeroConta) {
+		this.numeroConta = numeroConta;
+	}
+
+
+
 
 	public int getCodigo() {
 		return codigo;

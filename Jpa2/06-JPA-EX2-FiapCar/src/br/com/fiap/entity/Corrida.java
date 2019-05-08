@@ -70,6 +70,17 @@ public class Corrida implements Serializable{
 	
 	
 	
+	public Corrida(String origem, String destino, float valor) {
+		super();
+		this.origem = origem;
+		this.destino = destino;
+		this.valor = valor;
+	}
+
+
+
+
+
 	public Corrida(Passageiro passageiro, Motorista motorista, String origem, String destino, float valor) {
 		super();
 		this.passageiro = passageiro;

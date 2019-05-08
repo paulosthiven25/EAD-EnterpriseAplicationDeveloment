@@ -23,6 +23,7 @@ public class Veiculo {
 	private String placa;
 	@Column(name="DS_COR",nullable=false,length=20)
 	private String cor;
+	@Column(name="NR_ANO",nullable=true,length=20)
 	private int ano;
 	
 	

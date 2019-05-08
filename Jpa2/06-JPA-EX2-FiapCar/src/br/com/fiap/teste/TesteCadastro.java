@@ -35,11 +35,10 @@ class TesteCadastro {
 
 	@Test
 	void testarCadastro() {
-		 Motorista m = new Motorista("Paulera",new GregorianCalendar(Calendar.APRIL, 12,2010), null,Genero.MASCULINO);
+		 Motorista m = new Motorista("Paulera",new GregorianCalendar(Calendar.APRIL, 12,2010), null,Genero.MASCULINO,209,1205,345609);
 		 Passageiro p = new Passageiro("Jooj",new GregorianCalendar(Calendar.APRIL, 12,2002),Genero.FEMININO);
 		 Corrida c=new Corrida(p, m,"Rua Cesario Alvim","Rua dos pães",40);
 		 Pagamento pq =new Pagamento(500,FormaPagamento.DINHEIRO,c);
-		 pq.setDt_pagamento(Calendar.getInstance());
 		 c.setPagamento(pq);
 		 
 		 try {
