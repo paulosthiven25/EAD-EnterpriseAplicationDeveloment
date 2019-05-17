@@ -53,9 +53,9 @@ public class Pagamento {
 	
 	@OneToOne
 	@JoinColumns({
-		@JoinColumn(name = "CD_CORRIDA", referencedColumnName = "CD_CORRIDA"),
-		@JoinColumn(name = "CD_PASSAGEIRO", referencedColumnName ="CD_PASSAGEIRO" ),
-		@JoinColumn(name = "CD_MOTORISTA", referencedColumnName = "CD_MOTORISTA") })
+		@JoinColumn(name = "CD_CORRIDA", referencedColumnName = "CD_CORRIDA",nullable=false),
+		@JoinColumn(name = "CD_PASSAGEIRO", referencedColumnName ="CD_PASSAGEIRO",nullable=false),
+		@JoinColumn(name = "CD_MOTORISTA", referencedColumnName = "CD_MOTORISTA",nullable=false) })
 	private Corrida corrida;
 	
 	
